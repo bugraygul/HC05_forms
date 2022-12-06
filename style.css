@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   font-family: 'Zen Dots', cursive;
+   text-align: center;
+
+}
+
+form {
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    margin: 10px auto;
+}
+label {
+    width: 110px;
+    text-align: left;
+    display: inline-block;
+}

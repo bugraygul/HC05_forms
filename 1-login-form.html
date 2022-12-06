@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
-    <form action="">
+    <h1>LOGIN PAGE</h1>
+    <form action="" method="get">
       <div>
         <label for="username">Username</label>
         <input type="text" id="username" name="username" placeholder="Enter Your Username">
@@ -15,6 +20,14 @@
       <div>
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Enter Your Password">
+      </div>
+      <div>
+        <label for="sec-code">Security Code</label>
+        <input type="number" id="sec-code" name="sec-code" placeholder="Enter Your Security Code">
+      </div>
+      <div>
+        <input type="submit" value="save">
+        <input type="reset" value="reset">
       </div>
     </form>
   </body>
